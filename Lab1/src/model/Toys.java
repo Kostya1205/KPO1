@@ -1,12 +1,10 @@
 package model;
 
-import model.Toy;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class Toys {
-    private List<Toy> toys ;
+    private final List<Toy> toys ;
 
     public Toys() {
         this.toys = new ArrayList<>();

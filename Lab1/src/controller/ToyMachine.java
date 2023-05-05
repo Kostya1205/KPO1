@@ -10,12 +10,12 @@ public class ToyMachine {
     private Toys toys;
     public ToyMachine(){
         toys = new Toys();
-        toys.add(new Toy(2,200,"Стикер"));
-        toys.add(new Toy(1,100,"Брелок"));
-        toys.add(new Toy(2,300,"Матрёшка"));
-        toys.add(new Toy(1,400,"Автомобиль"));
-        toys.add(new Toy(2,400,"Поезд"));
-        toys.add(new Toy(1,200,"Солдатик"));
+        toys.add(new Toy(1,200,"Стикер"));
+        toys.add(new Toy(2,100,"Брелок"));
+        toys.add(new Toy(2,1000,"Матрёшка"));
+        toys.add(new Toy(3,400,"Автомобиль"));
+        toys.add(new Toy(4,400,"Поезд"));
+        toys.add(new Toy(5,200,"Солдатик"));
     }
     public String buyToy(GameRoom gameRoom){
         Random random = new Random();

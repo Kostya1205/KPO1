@@ -9,6 +9,5 @@ public class ShowInfo {
         System.out.println(gameRoom.weightOfAllToys());
         System.out.println(gameRoom.toyWithMaxPrice());
         System.out.println(gameRoom.toyWithMaxWeight());
-
     }
 }
