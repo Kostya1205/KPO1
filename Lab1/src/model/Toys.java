@@ -27,6 +27,22 @@ public class Toys {
         }
         return "Вес всех игрушек равен "+sum;
     }
+    public String maxWeight(){
+        Toy maxToy = toys.get(toys.size()-1);
+        for (Toy toy:toys) {
+            if(maxToy.getWeight()<toy.getWeight())
+                maxToy=toy;
+        }
+        return maxToy.getName()+" - игрушка с самым большим весом равным "+maxToy.getWeight();
+    }
+    public String maxPrice(){
+        Toy maxToy = toys.get(toys.size()-1);
+        for (Toy toy:toys) {
+            if(maxToy.getPrice()<toy.getPrice())
+                maxToy=toy;
+        }
+        return maxToy.getName()+" - игрушка с самой большой ценой равной "+maxToy.getPrice();
+    }
     public List<Toy> getToys() {
         return toys;
     }

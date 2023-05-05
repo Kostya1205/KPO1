@@ -17,4 +17,11 @@ public class GameRoom {
     public String weightOfAllToys(){
         return toys.weightOfAllToys();
     }
+    public String toyWithMaxPrice(){
+        return toys.maxPrice();
+    }
+    public String toyWithMaxWeight(){
+        return toys.maxWeight();
+    }
+
 }
