@@ -1,19 +1,20 @@
 package model;
 
+import controller.Toys;
 import model.Toy;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class GameRoom {
-    private final List<Toy> toys;
+    private final Toys toys;
 
     public GameRoom(){
-        toys = new ArrayList<>();
+        toys=new Toys();
     }
 
-    public void addToy(Toy toy){
-        toys.add(toy);
+    public void addToy(int price){
+        toys.set;
     }
     public String priceOfAllToys(){
         int sum = 0;
