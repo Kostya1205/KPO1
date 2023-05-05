@@ -1,3 +1,5 @@
+package model;
+
 public class Toy {
     private int price;
     private int weight;
