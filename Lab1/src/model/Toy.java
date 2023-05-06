@@ -13,15 +13,5 @@ public class Toy extends SubjectToBuy{
         super(price, weight);
     }
 
-    public int getPrice() {
-        return price;
-    }
 
-    public int getWeight() {
-        return weight;
-    }
-
-    public String getName() {
-        return name;
-    }
 }

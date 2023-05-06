@@ -23,4 +23,16 @@ public class SubjectToBuy {
         this.name = "Kostya";
 
     }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
