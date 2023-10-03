@@ -9,7 +9,13 @@ public class Furniture extends SubjectToBuy{
         super(weight, name);
     }
 
+
     public Furniture(int price, int weight) {
         super(price, weight);
+    }
+
+    @Override
+    public String getSubjectName() {
+        return "Furniture";
     }
 }

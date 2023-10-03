@@ -1,7 +1,6 @@
 package view;
 
 import model.GameRoom;
-import controller.ToyMachine;
 
 public class ShowInfo {
     public ShowInfo(GameRoom gameRoom){

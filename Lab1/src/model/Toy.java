@@ -12,6 +12,9 @@ public class Toy extends SubjectToBuy{
     public Toy(int price, int weight) {
         super(price, weight);
     }
-
+    @Override
+    public String getSubjectName() {
+        return "Toy";
+    }
 
 }

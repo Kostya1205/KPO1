@@ -12,4 +12,9 @@ public class Events extends SubjectToBuy{
     public Events(int price, int weight) {
         super(price, weight);
     }
+
+    @Override
+    public String getSubjectName() {
+        return "Events";
+    }
 }

@@ -35,4 +35,8 @@ public class SubjectToBuy {
     public String getName() {
         return name;
     }
+
+    public String getSubjectName() {
+        return name;
+    }
 }

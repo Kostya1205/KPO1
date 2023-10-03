@@ -1,27 +1,27 @@
 package model;
 
 public class GameRoom {
-    private final Toys toys;
+    private final SubjectsToBuy subjectsToBuy;
 
     public GameRoom(){
-        toys=new Toys();
+        subjectsToBuy =new SubjectsToBuy();
     }
 
-    public void addToy(Toy toy){
-        toys.add(toy);
+    public void addSubjectToBuy(SubjectToBuy subjectToBuy){
+        subjectsToBuy.add(subjectToBuy);
     }
     public String priceOfAllToys(){
-        return toys.priceOfAllToys();
+        return subjectsToBuy.priceOfAll();
     }
 
     public String weightOfAllToys(){
-        return toys.weightOfAllToys();
+        return subjectsToBuy.weightOfAll();
     }
     public String toyWithMaxPrice(){
-        return toys.maxPrice();
+        return subjectsToBuy.maxPrice();
     }
     public String toyWithMaxWeight(){
-        return toys.maxWeight();
+        return subjectsToBuy.maxWeight();
     }
 
 }
